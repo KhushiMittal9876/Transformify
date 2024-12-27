@@ -12,11 +12,11 @@ function LandingPage({onThemeChange}) {
   };
   return (
     <div className="p-2 h-full w-full">
-      <p className="text-lg mt-4">
+      <p className="text-lg mt-2">
         Current Theme: <span className="font=bold">{theme}</span>
       </p>
       <h1 className="text-2xl font-bold mb-6">Select Your Theme</h1>
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="mb-6 grid grid-cols-2 md:grid-cols-5 gap-4">
         {Themes.map((t) => (
           <button
             key={t}

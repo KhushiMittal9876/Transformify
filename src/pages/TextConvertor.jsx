@@ -29,7 +29,7 @@ function TextConvertor(props) {
     <div>
       <h1 className="p-4 text-3xl">{props.heading}</h1>
       <div>
-        <textarea className="textarea textarea-bordered textarea-lg w-full lg:max-w-6xl my-4 sm:max-w-xs" placeholder="Paste the text here..." value={text} onChange={handlechange} rows="8"> </textarea>
+        <textarea className="textarea textarea-bordered textarea-lg w-full lg:max-w-6xl mb-4 sm:max-w-xs" placeholder="Paste the text here..." value={text} onChange={handlechange} rows="9"> </textarea>
       </div>
       <button className="btn glass mx-4" onClick={handleClickUpper}>UPPERCASE</button>
       <button className="btn glass mx-4" onClick={handleClickLower}>lowercase</button>
